@@ -1,0 +1,62 @@
+@media only screen and (max-width : 480px) {
+	#fixblock{
+		display: none;
+	}
+	#container{
+		position: relative;
+		background-image: none;
+		background: #FFF;
+		width: auto;
+	}
+	#main{
+		width: auto;
+	}
+	#left{
+		position: absolute;
+		float:initial;
+		bottom: 0;
+		right: 0;
+	}
+	#content{
+		margin-left: 0;
+		background-image:none;
+	}
+	#content_text_2{
+		margin-left: 0;
+
+	}
+	.mobile_none{
+		display:none;
+	}
+	#vk_comments{
+		display:none;
+	}
+	#headertext1{
+		width: auto;
+	}
+	h1{
+		width: auto;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
+
+@media (max-width : 1180px) and (min-width : 480px) {
+	#fixblock{
+		display: none;
+	}
+	#content_text_2{
+		margin-left: 20px;
+	}
+	#container{
+		position: relative;
+		background-image: none;
+		background: #FFF;
+		width: 1030px;
+	}
+	#main{
+		width: 1030px;
+	}
+
+	}

@@ -1,0 +1,22 @@
+#board, #board1{
+    width:400px;
+}
+.s_kl, .t_kl, .s_shk, .t_shk{
+    width:50px;
+    height:50px;
+    float:left;
+    padding:0px;
+    margin:0px;
+}
+.s_kl{
+    background:url('images/sv_kletka.png');
+}
+.t_kl{
+    background:url('images/tem_kletka.png');
+}
+ .s_shk{
+    background:url('images/sv_shashka.gif');
+}
+.t_shk{
+    background:url('images/tem_shashka.gif');
+}
